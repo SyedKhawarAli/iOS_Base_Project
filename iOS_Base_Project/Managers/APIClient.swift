@@ -24,7 +24,7 @@ extension HTTPRequest {
     var headers: HTTPHeaders? { nil }
 }
 
-typealias APIClientResult = Result<Any, ZyTrackError>
+typealias APIClientResult = Result<Any, ErrorModel>
 
 class APIClient {
     // MARK: - Class Instances
@@ -39,7 +39,7 @@ class APIClient {
 
     func performRequest(_ request: HTTPRequest, shouldAddHeader: Bool = true, andCompletion completion: @escaping (APIClientResult) -> Void) {
         guard let url = request.endPoint else {
-            completion(.failure(ZyTrackError(message: LocalizedKey.urlNotFound.string)))
+            completion(.failure(ErrorModel(message: LocalizedKey.urlNotFound.string)))
             return
         }
         var headers: HTTPHeaders?
@@ -77,7 +77,7 @@ class APIClient {
             case let .success(value):
                 completion(.success((headers: headers, body: value)))
             case let .failure(error):
-                completion(.failure(ZyTrackError(message: error.errorDescription ??
+                completion(.failure(ErrorModel(message: error.errorDescription ??
                         LocalizedKey.somethingWentWrong.string)))
             }
         }
@@ -87,7 +87,7 @@ class APIClient {
         let destination = DownloadRequest.suggestedDownloadDestination(for: .documentDirectory)
 
         guard let url = request.endPoint else {
-            completion(.failure(ZyTrackError(message: LocalizedKey.urlNotFound.string)))
+            completion(.failure(ErrorModel(message: LocalizedKey.urlNotFound.string)))
             return
         }
         var headers: HTTPHeaders?
@@ -117,7 +117,7 @@ class APIClient {
             case let .success(value):
                 completion(.success((headers: headers, body: value)))
             case let .failure(error):
-                completion(.failure(ZyTrackError(message: error.errorDescription ??
+                completion(.failure(ErrorModel(message: error.errorDescription ??
                         LocalizedKey.somethingWentWrong.string)))
             }
         })

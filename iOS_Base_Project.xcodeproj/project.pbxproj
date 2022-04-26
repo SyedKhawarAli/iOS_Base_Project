@@ -64,9 +64,9 @@
 		07FE4E5E2817C01700FE9139 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE4E592817C01700FE9139 /* APIClient.swift */; };
 		07FE4E602817C01700FE9139 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE4E5B2817C01700FE9139 /* SessionManager.swift */; };
 		07FE4E632817C0F900FE9139 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 07FE4E622817C0F900FE9139 /* Alamofire */; };
-		07FE4E662817C3A200FE9139 /* ZyTrackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE4E652817C3A200FE9139 /* ZyTrackError.swift */; };
+		07FE4E662817C3A200FE9139 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE4E652817C3A200FE9139 /* ErrorModel.swift */; };
 		07FE4E692817C4A800FE9139 /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = 07FE4E682817C4A800FE9139 /* ObjectMapper */; };
-		07FE4E6B2817C84200FE9139 /* ZyTrackUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE4E6A2817C84200FE9139 /* ZyTrackUser.swift */; };
+		07FE4E6B2817C84200FE9139 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE4E6A2817C84200FE9139 /* UserModel.swift */; };
 		07FE4E702817D11D00FE9139 /* BrownStd-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07FE4E6E2817D11D00FE9139 /* BrownStd-Bold.ttf */; };
 		07FE4E712817D11D00FE9139 /* BrownStd-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07FE4E6F2817D11D00FE9139 /* BrownStd-Regular.ttf */; };
 		07FE4E742817D17900FE9139 /* TemplateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE4E732817D17900FE9139 /* TemplateButton.swift */; };
@@ -150,8 +150,8 @@
 		07FE4E582817C01700FE9139 /* LoaderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderManager.swift; sourceTree = "<group>"; };
 		07FE4E592817C01700FE9139 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		07FE4E5B2817C01700FE9139 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
-		07FE4E652817C3A200FE9139 /* ZyTrackError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyTrackError.swift; sourceTree = "<group>"; };
-		07FE4E6A2817C84200FE9139 /* ZyTrackUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZyTrackUser.swift; sourceTree = "<group>"; };
+		07FE4E652817C3A200FE9139 /* ErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		07FE4E6A2817C84200FE9139 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		07FE4E6E2817D11D00FE9139 /* BrownStd-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrownStd-Bold.ttf"; sourceTree = "<group>"; };
 		07FE4E6F2817D11D00FE9139 /* BrownStd-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrownStd-Regular.ttf"; sourceTree = "<group>"; };
 		07FE4E732817D17900FE9139 /* TemplateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateButton.swift; sourceTree = "<group>"; };
@@ -339,8 +339,8 @@
 		07FE4E642817C38500FE9139 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				07FE4E6A2817C84200FE9139 /* ZyTrackUser.swift */,
-				07FE4E652817C3A200FE9139 /* ZyTrackError.swift */,
+				07FE4E6A2817C84200FE9139 /* UserModel.swift */,
+				07FE4E652817C3A200FE9139 /* ErrorModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -531,7 +531,7 @@
 				0727B9412816CD9C00A29394 /* UIImage.swift in Sources */,
 				0727B9732816D4A900A29394 /* NSNotificationName.swift in Sources */,
 				0727B9022816CCAC00A29394 /* ViewController.swift in Sources */,
-				07FE4E662817C3A200FE9139 /* ZyTrackError.swift in Sources */,
+				07FE4E662817C3A200FE9139 /* ErrorModel.swift in Sources */,
 				0727B9432816CD9C00A29394 /* Int.swift in Sources */,
 				0727B9422816CD9C00A29394 /* UITapGestureRecognizer.swift in Sources */,
 				0727B9762816D4A900A29394 /* PHAsset.swift in Sources */,
@@ -563,7 +563,7 @@
 				0727B94C2816CD9C00A29394 /* UIBarButtonItem.swift in Sources */,
 				0727B94D2816CD9C00A29394 /* UIImageView.swift in Sources */,
 				0727B97D2816D4A900A29394 /* CollectionType.swift in Sources */,
-				07FE4E6B2817C84200FE9139 /* ZyTrackUser.swift in Sources */,
+				07FE4E6B2817C84200FE9139 /* UserModel.swift in Sources */,
 				0727B9832816D4A900A29394 /* UICollectionViewCell.swift in Sources */,
 				07FE4E5D2817C01700FE9139 /* LoaderManager.swift in Sources */,
 				0727B94A2816CD9C00A29394 /* UITableView.swift in Sources */,

@@ -21,7 +21,7 @@ class SessionManager {
 
     // MARK: Properties
 
-    public var user: ZyTrackUser?
+    public var user: UserModel?
 
     public var isUserLogin: Bool {
         return user != nil && user?.accessToken != nil
@@ -30,14 +30,14 @@ class SessionManager {
     // MARK: - Public Methods
 
     public func loadSession() {
-        user = ZyTrackUser(JSON: UserDefaultsManager.user)
+        user = UserModel(JSON: UserDefaultsManager.user)
         guard let _ = user?.accessToken else {
             user = nil
             return
         }
     }
 
-    public func saveUser(user: ZyTrackUser) {
+    public func saveUser(user: UserModel) {
         self.user = user
         if UserDefaultsManager.rememberMe {
             UserDefaultsManager.user = user.toJSON()

@@ -1,5 +1,5 @@
 //
-//  ZyTrackUser.swift
+//  UserModel.swift
 //  zytrack_ios
 //
 //  Created by BrainX Technologies on 3/1/21.
@@ -7,7 +7,7 @@
 
 import ObjectMapper
 
-class ZyTrackUser: Mappable {
+class UserModel: Mappable {
     var active: Bool?
     var appVersion: String?
     var name: String?

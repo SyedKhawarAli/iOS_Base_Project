@@ -1,5 +1,5 @@
 //
-//  ZyTrackError.swift
+//  ErrorModel.swift
 //  zytrack_ios
 //
 //  Created by BrainX Technologies on 3/1/21.
@@ -8,7 +8,7 @@
 import Foundation
 import ObjectMapper
 
-class ZyTrackError: Mappable, Error {
+class ErrorModel: Mappable, Error {
     var message: String?
     var code = 500
 
