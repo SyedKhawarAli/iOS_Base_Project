@@ -41,12 +41,10 @@
 		0727B9762816D4A900A29394 /* PHAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727B9602816D4A800A29394 /* PHAsset.swift */; };
 		0727B9772816D4A900A29394 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727B9612816D4A800A29394 /* Bundle.swift */; };
 		0727B9782816D4A900A29394 /* NSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727B9622816D4A800A29394 /* NSMutableAttributedString.swift */; };
-		0727B97B2816D4A900A29394 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727B9652816D4A900A29394 /* String.swift */; };
 		0727B97C2816D4A900A29394 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727B9662816D4A900A29394 /* Calendar.swift */; };
 		0727B97D2816D4A900A29394 /* CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727B9672816D4A900A29394 /* CollectionType.swift */; };
 		0727B97E2816D4A900A29394 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727B9682816D4A900A29394 /* UINavigationController.swift */; };
 		0727B97F2816D4A900A29394 /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727B9692816D4A900A29394 /* Locale.swift */; };
-		0727B9812816D4A900A29394 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727B96B2816D4A900A29394 /* UIView.swift */; };
 		0727B9822816D4A900A29394 /* NSLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727B96C2816D4A900A29394 /* NSLayer.swift */; };
 		0727B9832816D4A900A29394 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727B96D2816D4A900A29394 /* UICollectionViewCell.swift */; };
 		0727B9852816D58800A29394 /* CAShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727B9842816D58800A29394 /* CAShapeLayer.swift */; };
@@ -72,6 +70,8 @@
 		07FE4E702817D11D00FE9139 /* BrownStd-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07FE4E6E2817D11D00FE9139 /* BrownStd-Bold.ttf */; };
 		07FE4E712817D11D00FE9139 /* BrownStd-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07FE4E6F2817D11D00FE9139 /* BrownStd-Regular.ttf */; };
 		07FE4E742817D17900FE9139 /* TemplateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE4E732817D17900FE9139 /* TemplateButton.swift */; };
+		07FE4E762817DA2000FE9139 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE4E752817DA2000FE9139 /* UIView.swift */; };
+		07FE4E782817DA7400FE9139 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE4E772817DA7400FE9139 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,12 +130,10 @@
 		0727B9602816D4A800A29394 /* PHAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHAsset.swift; sourceTree = "<group>"; };
 		0727B9612816D4A800A29394 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		0727B9622816D4A800A29394 /* NSMutableAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedString.swift; sourceTree = "<group>"; };
-		0727B9652816D4A900A29394 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = String.swift; path = "../../../../../eapple/Desktop/BrainX/BrainX Projects/ZyTrack/Project/zytrack_ios/zytrack_ios/Extensions/String.swift"; sourceTree = "<group>"; };
 		0727B9662816D4A900A29394 /* Calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		0727B9672816D4A900A29394 /* CollectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionType.swift; sourceTree = "<group>"; };
 		0727B9682816D4A900A29394 /* UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		0727B9692816D4A900A29394 /* Locale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locale.swift; sourceTree = "<group>"; };
-		0727B96B2816D4A900A29394 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = "../../../../../eapple/Desktop/BrainX/BrainX Projects/ZyTrack/Project/zytrack_ios/zytrack_ios/Extensions/UIView.swift"; sourceTree = "<group>"; };
 		0727B96C2816D4A900A29394 /* NSLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayer.swift; sourceTree = "<group>"; };
 		0727B96D2816D4A900A29394 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
 		0727B9842816D58800A29394 /* CAShapeLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAShapeLayer.swift; sourceTree = "<group>"; };
@@ -157,6 +155,8 @@
 		07FE4E6E2817D11D00FE9139 /* BrownStd-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrownStd-Bold.ttf"; sourceTree = "<group>"; };
 		07FE4E6F2817D11D00FE9139 /* BrownStd-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrownStd-Regular.ttf"; sourceTree = "<group>"; };
 		07FE4E732817D17900FE9139 /* TemplateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateButton.swift; sourceTree = "<group>"; };
+		07FE4E752817DA2000FE9139 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		07FE4E772817DA7400FE9139 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,7 +264,7 @@
 				0727B95D2816D4A800A29394 /* NSNotificationName.swift */,
 				0727B9592816D4A800A29394 /* Numeric.swift */,
 				0727B9602816D4A800A29394 /* PHAsset.swift */,
-				0727B9652816D4A900A29394 /* String.swift */,
+				07FE4E772817DA7400FE9139 /* String.swift */,
 				0727B95F2816D4A800A29394 /* TimeInterval.swift */,
 				0727B93A2816CD9C00A29394 /* UIBarButtonItem.swift */,
 				0727B96D2816D4A900A29394 /* UICollectionViewCell.swift */,
@@ -275,9 +275,9 @@
 				0727B95B2816D4A800A29394 /* UIStoryboard.swift */,
 				0727B9382816CD9C00A29394 /* UITableView.swift */,
 				0727B95C2816D4A800A29394 /* UITableViewCell.swift */,
+				07FE4E752817DA2000FE9139 /* UIView.swift */,
 				0727B9302816CD9C00A29394 /* UITapGestureRecognizer.swift */,
 				0727B9332816CD9C00A29394 /* UITextField.swift */,
-				0727B96B2816D4A900A29394 /* UIView.swift */,
 				0727B93F2816CD9C00A29394 /* UIViewController.swift */,
 			);
 			path = Extensions;
@@ -523,6 +523,7 @@
 				0727B9712816D4A900A29394 /* UIStoryboard.swift in Sources */,
 				0727B9402816CD9C00A29394 /* NSArray.swift in Sources */,
 				0727B9772816D4A900A29394 /* Bundle.swift in Sources */,
+				07FE4E782817DA7400FE9139 /* String.swift in Sources */,
 				07FE4E4F2817BFE100FE9139 /* Utils.swift in Sources */,
 				0727B9442816CD9C00A29394 /* Dictionary.swift in Sources */,
 				0727B9452816CD9C00A29394 /* UITextField.swift in Sources */,
@@ -530,7 +531,6 @@
 				0727B9412816CD9C00A29394 /* UIImage.swift in Sources */,
 				0727B9732816D4A900A29394 /* NSNotificationName.swift in Sources */,
 				0727B9022816CCAC00A29394 /* ViewController.swift in Sources */,
-				0727B9812816D4A900A29394 /* UIView.swift in Sources */,
 				07FE4E662817C3A200FE9139 /* ZyTrackError.swift in Sources */,
 				0727B9432816CD9C00A29394 /* Int.swift in Sources */,
 				0727B9422816CD9C00A29394 /* UITapGestureRecognizer.swift in Sources */,
@@ -543,6 +543,7 @@
 				0727B8FE2816CCAC00A29394 /* AppDelegate.swift in Sources */,
 				0727B9502816CD9C00A29394 /* Data.swift in Sources */,
 				0727B97C2816D4A900A29394 /* Calendar.swift in Sources */,
+				07FE4E762817DA2000FE9139 /* UIView.swift in Sources */,
 				0727B97F2816D4A900A29394 /* Locale.swift in Sources */,
 				0727B9472816CD9C00A29394 /* Date.swift in Sources */,
 				07FE4E602817C01700FE9139 /* SessionManager.swift in Sources */,
@@ -567,7 +568,6 @@
 				07FE4E5D2817C01700FE9139 /* LoaderManager.swift in Sources */,
 				0727B94A2816CD9C00A29394 /* UITableView.swift in Sources */,
 				07FE4E4D2817BFE100FE9139 /* LocalizedKey.swift in Sources */,
-				0727B97B2816D4A900A29394 /* String.swift in Sources */,
 				0727B9722816D4A900A29394 /* UITableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
