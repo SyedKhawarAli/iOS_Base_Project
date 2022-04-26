@@ -1,0 +1,10 @@
+/* 
+  LocalizedKey.strings
+  zytrack_ios
+
+  Created by BrainX Technologies on 3/8/21.
+  
+*/
+"ok" = "Ok";
+"urlNotFound" = "URL Not Found";
+"somethingWentWrong" = "Something Went Wrong";
